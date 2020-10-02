@@ -1,0 +1,36 @@
+{
+  "explorer.width": 30,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.keyMappings": {
+    "<cr>": [
+      "expandable?",
+      "expand",
+      "open"
+    ],
+    "v": "open:vsplit"
+  },
+  "cSpell.language": "en-GB",
+  "cSpell.enabled": false,
+  "suggest.noselect": true,
+  "suggest.enablePreselect": false,
+  "codeLens.enable": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "json",
+    "python"
+  ],
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snips",
+  "languageserver": {
+    "hdlChecker": {
+      "command": "hdl_checker",
+      "args": [
+        "--lsp"
+      ],
+      "filetypes": [
+        "vhdl",
+        "verilog",
+        "systemverilog"
+      ]
+    }
+  }
+}
