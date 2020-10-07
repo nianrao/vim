@@ -173,6 +173,7 @@ set noswapfile            " disable swap file
 let NERDTreeShowHidden=1  " enable NERDTree to show hidden files
 set hlsearch              " enable search highlight
 set ignorecase            " ignore case in search
+set incsearch             " increment search
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
